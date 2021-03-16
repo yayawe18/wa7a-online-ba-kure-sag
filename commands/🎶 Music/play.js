@@ -5,7 +5,7 @@ const ee = require(`../../botconfig/embed.json`);
 const emoji = require(`../../botconfig/emojis.json`);
 const playermanager = require(`../../handlers/playermanager`);
 module.exports = {
-    name: `play`,
+    name: `p`,
     category: `🎶 Music`,
     aliases: [`p`],
     description: `Plays a song from youtube`,
